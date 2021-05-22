@@ -1,7 +1,7 @@
 const http = require('http');
 
-const hostname = localhost;
-const port = process.env.PORT;
+const hostname = "localhost";
+const port = process.env.PORT|3000;
 
 http.createServer(function(request, response) {
   response.writeHead(200, { 'Content-Type': 'text/plain' });
